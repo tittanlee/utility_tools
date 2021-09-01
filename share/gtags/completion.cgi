@@ -1,4 +1,4 @@
-#! /bin/perl -T
+#! /bin/perl
 #
 # Copyright (c) 2010, 2016 Tama Communications Corporation
 #

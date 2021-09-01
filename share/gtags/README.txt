@@ -1,6 +1,6 @@
 This is a port of GNU GLOBAL to MS-Windows (32-bit) systems.
 GNU GLOBAL is a source code tag system that works the same way across diverse
-environments.  It supports C, C++, Yacc, Java, PHP4 and assembly source code.
+environments.  It supports C, Yacc, Java, PHP4 and assembly source code.
 
 This README file describes how to install GLOBAL on MS-Windows systems:
 
@@ -42,4 +42,4 @@ This README file describes how to install GLOBAL on MS-Windows systems:
 
 
 Jason Hood,
-22 March, 2016.
+31 January, 2021.

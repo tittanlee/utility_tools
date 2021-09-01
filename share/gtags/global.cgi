@@ -1,4 +1,4 @@
-#! /bin/perl -T
+#! /bin/perl
 #------------------------------------------------------------------
 # YOU ARE COMING TO THE DESTINATION ALMOST. PLEASE DO A LITTLE EFFORT.
 #
@@ -48,7 +48,7 @@ sub header {
 <head>\
 <title>Result</title>\
 <meta name='robots' content='noindex,nofollow' />\
-<meta name='generator' content='GNU GLOBAL 6.6.3' />\
+<meta name='generator' content='GNU GLOBAL 6.6.5' />\
 <meta http-equiv='Content-Style-Type' content='text/css' />\
 <link rel='stylesheet' type='text/css' href='$basedir/style.css' />\
 </head>\n<body>\n";

@@ -32,11 +32,11 @@ GTAGS.CONF(5)                 File Formats Manual                GTAGS.CONF(5)
        --sysconfdir option of the  configure  script.  [objdir]  is  'obj'  by
        default; you can change it by [1mGTAGSOBJDIR [22mor [1mMAKEOBJDIR[22m.
 
-       Syntax  is  similar  to [1mtermcap[22m(5) except for some extensions described
-       later.  A file includes one or more records. You should select a record
-       using  a  label.  Default label is 'default'. If [1mGTAGSLABEL [22mis set, its
-       value is used.  Please be aware the meaning of 'default'  is  different
-       from that of [1mtermcap[22m(5).
+       Its  syntax  is  similar  to  [1mtermcap[22m(5)  except  for  some  extensions
+       described later.  A file includes  one  or  more  records.  You  should
+       select a record using a label.  Default label is 'default'. If [1mGTAGSLA-[0m
+       [1mBEL [22mis set, its  value  is  used.   Please  be  aware  the  meaning  of
+       'default' is different from that of [1mtermcap[22m(5).
 
        Lines  starting with '#' are ignored.  A record consists of one or more
        fields separated by ':' and ends with a newline.  The first field  must
@@ -66,7 +66,7 @@ GTAGS.CONF(5)                 File Formats Manual                GTAGS.CONF(5)
 
 [1mIncluding another record[0m
        [1mTc [22mis a special variable; it reads in definitions  in  another  record.
-       It is similar to the [1mtc [22mof [1mtermcap[22m(5).  Syntax is as follows:
+       It is similar to the [1mtc [22mof [1mtermcap[22m(5).  Its syntax is as follows:
        [1mtc[22m=[4mlabel[24m[@[4mfile[24m]
        If  only  a  [4mlabel[24m  is given, [1mtc [22mis read from a record specified by the
        [4mlabel[24m in the same file. If @[4mfile[24m is also  given,  [1mtc  [22mis  read  from  a
